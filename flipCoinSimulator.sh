@@ -21,6 +21,8 @@ then
 elif [ $tail_value -gt $head_value ]
 then
         echo "Tail wins by $(($tail_value-$head_value))"
+else
+	echo "Tie"
 fi
 
 
